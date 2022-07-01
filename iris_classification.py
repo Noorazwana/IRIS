@@ -33,7 +33,6 @@ Y = iris.species
 
 clf = RandomForestClassifier()
 clf.fit(X, Y)
-st.image('https://raw.githubusercontent.com/Noorazwana/IRIS/main/Iris%20species.png')
 
 prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
@@ -47,3 +46,5 @@ st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.image('https://raw.githubusercontent.com/Noorazwana/IRIS/main/Iris%20species.png')
