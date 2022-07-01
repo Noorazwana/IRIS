@@ -42,7 +42,7 @@ st.subheader('Class labels and their corresponding index number')
 st.write(iris.species)
 
 st.subheader('Prediction')
-st.write(iris.target_names[prediction])
+st.write(iris.species[prediction])
 #st.write(prediction)
 
 st.subheader('Prediction Probability')
