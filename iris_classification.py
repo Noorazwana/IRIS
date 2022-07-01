@@ -28,7 +28,7 @@ st.write(df)
 
 iris = pd.read_csv('IRIS.csv')
 st.write(iris)
-X = drop('species',axis=1)
+X = iris.drop('species',axis=1)
 Y = iris.species
 
 clf = RandomForestClassifier()
