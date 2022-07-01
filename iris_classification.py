@@ -28,7 +28,7 @@ st.write(df)
 
 #iris = github.load_iris()
 iris = pd.read_csv('IRIS.csv')
-print(iris)
+st.write(iris)
 X = drop('species',axis=1)
 Y = iris.species
 
